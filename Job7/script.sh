@@ -17,6 +17,7 @@ echo "Sauvegarde de l'ancien fichier proftpd.conf "
 $s cp /etc/proftpd/proftpd.conf /etc/proftpd/proftpd.conf.bak
 
 echo "Remplacement du fichier proftpd.conf"
+
 $s cp proftpd.conf /etc/proftpd/proftpd.conf
 $s chmod 600 /etc/proftpd/ssl/proftpd.* 
 
