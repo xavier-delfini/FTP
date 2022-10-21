@@ -15,7 +15,7 @@ for h in $(eval echo "{2..$i..1}");
 			;;
 		*)
 			sudo useradd -m -u ${infos[1]} -p ${infos[4]} ${user[$h]}
-			echo "L'utilisateur ${user[$h]} a été crée et est passé simple utilisateur"
+			echo "L'utilisateur ${user[$h]}  a été crée et est passé simple utilisateur"
 		;;
 	esac
 done
