@@ -1,6 +1,8 @@
 s="sudo"
 $s apt install proftpd-* openssl
 
+echo "Création du groupe ftp"
+$s groupadd ftp
 echo "Ajout de l'utilisateur Merry et Ajout au groupe ftp"
 $s useradd -m Merry && $s adduser Merry ftp
 $s echo "Merry:kalimac" | $s chpasswd 
